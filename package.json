@@ -1,0 +1,22 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "server": "node ./out/server.js",
+    "client": "node ./out/client.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/ws": "^8.5.3",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
+    "ws": "^8.8.0"
+  }
+}
